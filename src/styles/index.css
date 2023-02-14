@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-darkPink;
+  }
+  .active {
+    @apply underline;
+  }
+  .choice {
+    @apply font-extrabold text-5xl text-darkCyan bg-white py-2
+     sm:px-20 px-5 rounded-xl hover:bg-darkCyan hover:text-white
+    transition duration-300 cursor-pointer;
+  }
+  tbody tr:nth-child(even) {
+    @apply bg-lightPink text-darkGray;
+  }
+  .btn {
+    @apply bg-white text-darkCyan text-xl px-10 py-2 border-2 border-darkModerateCyan rounded-xl hover:bg-darkCyan hover:text-white hover:border-white transition duration-300;
+  }
+  .input {
+    @apply xl:w-[50vw] w-[70vw] py-3 px-5  rounded-md outline-none text-darkGray border-2 focus:border-darkModerateCyan sm:ml-0 ml-6;
+  }
+  .inValidStyle {
+    @apply flex justify-center m-0 p-0 text-logo tracking-widest;
+  }
+  .error {
+    @apply border-logo;
+  }
+}
