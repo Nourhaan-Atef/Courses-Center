@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Courses-Center/static/css/main.b54dccf6.css",
+    "main.js": "/Courses-Center/static/js/main.63021a9b.js",
+    "static/media/Books2.jpg": "/Courses-Center/static/media/Books2.dfc4018e804cfb07daa5.jpg",
+    "static/media/Error.png": "/Courses-Center/static/media/Error.bed6880581f4abe7671c.png",
+    "static/media/Man Teacher.png": "/Courses-Center/static/media/Man Teacher.5d223f1cf802d9fb88d5.png",
+    "static/media/Error404.png": "/Courses-Center/static/media/Error404.1a9476b00b7ca48750fa.png",
+    "static/media/Student Girl.png": "/Courses-Center/static/media/Student Girl.901f90303b82228039da.png",
+    "static/media/Student Boy.png": "/Courses-Center/static/media/Student Boy.65739af2b04c37a15a39.png",
+    "static/media/Woman Teacher.png": "/Courses-Center/static/media/Woman Teacher.dd4718004cedc6a00d84.png",
+    "static/media/book.png": "/Courses-Center/static/media/book.4ad3a7d36d87d9f1430a.png",
+    "index.html": "/Courses-Center/index.html",
+    "main.b54dccf6.css.map": "/Courses-Center/static/css/main.b54dccf6.css.map",
+    "main.63021a9b.js.map": "/Courses-Center/static/js/main.63021a9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b54dccf6.css",
+    "static/js/main.63021a9b.js"
+  ]
+}
