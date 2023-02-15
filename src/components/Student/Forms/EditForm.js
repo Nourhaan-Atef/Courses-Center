@@ -12,7 +12,6 @@ const EditForm = () => {
     initialValues: {
       id: record ? record.id : "",
       name: record ? record.name : "",
-      age: record ? record.age : "",
       email: record ? record.email : "",
       gender: record ? record.gender : "",
       grade: record ? record.grade : "",
@@ -20,12 +19,11 @@ const EditForm = () => {
     enableReinitialize: true,
     validationSchema: FormSchema,
     onSubmit: (values) => {
-      const { id, name, age, email, gender, grade } = values;
+      const { id, name, email, gender, grade } = values;
       dispatch(
         editStudent({
           id,
           name,
-          age,
           email,
           gender,
           grade,
@@ -58,30 +56,6 @@ const EditForm = () => {
         </div>
         {formik.errors.name && formik.touched.name ? (
           <div className="inValidStyle">{formik.errors.name}</div>
-        ) : null}
-
-        <div className="flex justify-center items-center gap-10">
-          <label className="text-darkCyan text-2xl w-[8vw]">Age</label>
-          <select
-            className={`input ${
-              formik.errors.age && formik.touched.age ? "error" : ""
-            }`}
-            placeholder="Enter Your Age,Please"
-            name="age"
-            value={formik.values.age}
-            onChange={formik.handleChange}
-          >
-            <option value="none">Select Your Age</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-          </select>
-        </div>
-        {formik.errors.age && formik.touched.age ? (
-          <div className="inValidStyle  ">{formik.errors.age}</div>
         ) : null}
 
         <div className="flex justify-center items-center gap-10">

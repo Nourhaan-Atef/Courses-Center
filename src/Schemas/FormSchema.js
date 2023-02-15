@@ -5,7 +5,6 @@ export const FormSchema = Yup.object().shape({
     .min(3, "It is too short you should insert at least 2 characters")
     .max(20, "It is too long you should insert at most 10 characters")
     .required("Required"),
-  age: Yup.string().required("Required"),
   email: Yup.string().required("Required"),
   grade: Yup.string().required("Required"),
   gender: Yup.string().required("Required"),

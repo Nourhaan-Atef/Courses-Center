@@ -11,7 +11,6 @@ const AddForm = () => {
   const formik = useFormik({
     initialValues: {
       name: "",
-      age: "",
       email: "",
       gender: "",
       grade: "",
@@ -23,7 +22,6 @@ const AddForm = () => {
         addStudent({
           id,
           name: values.name,
-          age: values.age,
           email: values.email,
           gender: values.gender,
           grade: values.grade,
@@ -55,28 +53,7 @@ const AddForm = () => {
         {formik.errors.name && formik.touched.name ? (
           <div className="inValidStyle">{formik.errors.name}</div>
         ) : null}
-        <div className="flex justify-center items-center gap-10">
-          <label className="text-darkCyan text-2xl w-[8vw]">Age</label>
 
-          <select
-            className="input"
-            placeholder="Enter Your Age,Please"
-            name="age"
-            value={formik.values.age}
-            onChange={formik.handleChange}
-          >
-            <option value="none">Select Your Age</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-          </select>
-        </div>
-        {formik.errors.age && formik.touched.age ? (
-          <div className="inValidStyle  ">{formik.errors.age}</div>
-        ) : null}
         <div className="flex justify-center items-center gap-10">
           <label className="w-[8vw] text-darkCyan text-2xl ">Email</label>
           <input

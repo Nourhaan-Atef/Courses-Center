@@ -38,14 +38,7 @@ const DetailsPage = () => {
             </span>
             <p className="text-darkGray text-xl underline">{record?.gender}</p>
           </li>
-          <li className="flex bg-white pl-5 py-2 items-center rounded-xl">
-            <span className="mr-3 font-extrabold text-2xl text-darkCyan tracking-widest">
-              Age :-
-            </span>
-            <p className="text-darkGray text-xl underline">
-              {record?.age} Years Old
-            </p>
-          </li>
+
           <li className="flex bg-white pl-5 py-2 items-center rounded-xl">
             <span className="mr-3 font-extrabold text-2xl text-darkCyan tracking-widest">
               Email :-
