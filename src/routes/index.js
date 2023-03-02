@@ -19,20 +19,20 @@ export const router = createBrowserRouter([
     children: [
       // { index: true, element: <IndexStudent /> },
 
-      { path: "/", element: <ChoicePage /> },
+      { path: "/Courses-Center", element: <ChoicePage /> },
       // Student Routes
-      { path: "student", element: <IndexStudent /> },
-      { path: "student/add", element: <AddStudent /> },
-      { path: "student/:id/edit", element: <EditStudent /> },
-      { path: "student/:id/details", element: <DetailsPage /> },
-      { path: "student/:id/details/edit", element: <EditStudent /> },
+      { path: "/Courses-Center/student", element: <IndexStudent /> },
+      { path: "/Courses-Center/student/add", element: <AddStudent /> },
+      { path: "/Courses-Center/student/:id/edit", element: <EditStudent /> },
+      { path: "/Courses-Center/student/:id/details/edit", element: <EditStudent /> },
+      { path: "/Courses-Center/student/:id/details", element: <DetailsPage /> },
 
       // Teacher Routes
-      { path: "teacher", element: <IndexTeacher /> },
-      { path: "teacher/add", element: <AddTeacher /> },
-      { path: "teacher/:id/edit", element: <EditTeacher /> },
-      { path: "teacher/:id/details", element: <DetailsTeacher /> },
-      { path: "teacher/:id/details/edit", element: <EditTeacher /> },
+      { path: "/Courses-Center/teacher", element: <IndexTeacher /> },
+      { path: "/Courses-Center/teacher/add", element: <AddTeacher /> },
+      { path: "/Courses-Center/teacher/:id/edit", element: <EditTeacher /> },
+      { path: "/Courses-Center/teacher/:id/details", element: <DetailsTeacher /> },
+      { path: "/Courses-Center/teacher/:id/details/edit", element: <EditTeacher /> },
     ],
   },
 ]);

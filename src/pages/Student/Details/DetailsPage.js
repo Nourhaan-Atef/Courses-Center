@@ -68,7 +68,7 @@ const DetailsPage = () => {
           </div>
           <div
             className="flex py-2 px-5 ml-10 mt-5 rounded-xl bg-darkCyan hover:bg-white text-white cursor-pointer transition duration-300 hover:text-darkGray"
-            onClick={() => navigate("/student", { replace: true })}
+            onClick={() => navigate("/Courses-Center/student", { replace: true })}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

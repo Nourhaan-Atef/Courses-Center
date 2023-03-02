@@ -30,7 +30,7 @@ const EditForm = () => {
         })
       ).then((res) => {
         if (res.meta.requestStatus === "fulfilled") {
-          navigate("/student");
+          navigate("/Courses-Center/student");
         }
       });
     },
@@ -128,7 +128,7 @@ const EditForm = () => {
             SUBMIT
           </button>
 
-          <button className="btn" onClick={() => navigate("/student")}>
+          <button className="btn" onClick={() => navigate("/Courses-Center/student")}>
             CANCEL
           </button>
         </div>

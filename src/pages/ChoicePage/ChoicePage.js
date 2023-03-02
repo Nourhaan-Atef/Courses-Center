@@ -5,10 +5,10 @@ const ChoicePage = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center gap-10 uppercase font-pageFont mt-20">
-        <Link to="teacher">
+        <Link to="/Courses-Center/teacher">
           <div className="choice ">teachers</div>
         </Link>
-        <Link to="student">
+        <Link to="/Courses-Center/student">
           <div className="choice">students</div>
         </Link>
       </div>

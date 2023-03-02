@@ -13,7 +13,7 @@ const ErrorPage = () => {
           <img src={Error} alt="Error-Img" className="sm:h-[60vh]" />
         </div>
         <button
-          onClick={() => navigate("/", { replace: true })}
+          onClick={() => navigate("/Courses-Center", { replace: true })}
           className="btn specialBtn"
         >
           Home

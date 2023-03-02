@@ -75,7 +75,7 @@ const DetailsTeacher = () => {
           </div>
           <div
             className="flex py-2 px-5 ml-10 mt-5 rounded-xl bg-darkCyan hover:bg-white text-white cursor-pointer transition duration-300 hover:text-darkGray"
-            onClick={() => navigate("/teacher", { replace: true })}
+            onClick={() => navigate("/Courses-Center/teacher", { replace: true })}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

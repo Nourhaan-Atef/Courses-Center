@@ -11,7 +11,7 @@ const Navbar = ({ type }) => {
               ADD {type}
             </div>
           </Link>
-          <Link to={"/"}>
+          <Link to={"/Courses-Center"}>
             <div className="ml-3 cursor-pointer hover:text-logo transition duration-300">
               Home
             </div>
